@@ -9,6 +9,6 @@ import java.util.List;
 @Mapper
 public interface LocaTempDao {
 
-    @Select({"select * from loca_temp LIMIT 0,10"})
+    @Select({"select * from loca_temp LIMIT 0,5"})
     List<LocaTemp> findAll();
 }
