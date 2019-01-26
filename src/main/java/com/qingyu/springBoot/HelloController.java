@@ -28,11 +28,11 @@ public class HelloController {
         return "hello";
     }
 
-    /*@RequestMapping("/helloAjax")
+    @RequestMapping("/helloAjax")
     @ResponseBody
     public String helloAjax() {
 
         return "helloAjax";
-    }*/
+    }
 
 }
